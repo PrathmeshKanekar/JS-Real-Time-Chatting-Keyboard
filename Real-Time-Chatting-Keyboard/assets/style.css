@@ -1,0 +1,200 @@
+.display {
+    position: relative;
+    height: 500px;
+    width: 270px;
+    top: 100px;
+    left: 500px;
+    outline: 1px solid gray;
+    border: 2px solid black;
+    border-radius: 30px;
+
+}
+
+.top {
+    position: absolute;
+    background-color: darkgray;
+    height: 50px;
+    width: 270px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+
+.mid {
+    position: absolute;
+
+    top: 50px;
+    height: 380px;
+    width: 270px;
+    /* background-color: black; */
+}
+
+.camera {
+    position: absolute;
+    top: 20px;
+    left: 95px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 35);
+}
+
+.speker {
+    position: absolute;
+    top: 22px;
+    left: 120px;
+    width: 40px;
+    height: 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.bot {
+    position: absolute;
+    background-color: darkgray;
+    bottom: 0;
+    height: 70px;
+    width: 270px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.btnm {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 40%;
+    top: 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.scb {
+
+    position: absolute;
+    top: 185px;
+    width: 270px;
+}
+
+.msgs {
+    position: absolute;
+    top: 160px;
+    left: 1px;
+    height: 20px;
+    width: 200px;
+
+}
+
+.sebtn {
+    position: absolute;
+    top: 162px;
+    left: 215px;
+}
+
+.nor {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 2px;
+
+}
+
+.cbtn {
+    text-align: center;
+    
+    margin-left: 2px;
+    padding: 3px 6px;
+}
+
+.row2 {
+
+    top: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+
+
+}
+
+.rtbtn {
+    margin-left: 1px;
+    padding: 3px 6px;
+}
+
+.row3 {
+    top: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-bottom: 2px;
+
+}
+
+.rthbtn {
+    margin-left: 2px;
+    padding: 3px 6px;
+}
+
+.row4 {
+    top: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4px;
+    margin-bottom: 2px;
+}
+
+.rfbtn {
+    margin-left: 2px;
+    padding: 3px 6px;
+}
+
+.row5 {
+    top: 310px;
+    width: 100%;
+}
+
+.rl {
+    width: 100%;
+}
+
+/* .mobile {
+    flex: 50;
+    background-color: aqua;
+}
+
+.scm {
+    display: flex;
+}
+
+.msgscreen {
+    flex: 50;
+
+    background-color: brown;
+} */
+.msgscreen p {
+    position: absolute;
+    top: 150px;
+    right: 590px;
+    height: 190px;
+    width: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+
+.keyboard {
+    display: none;
+    position: absolute;
+    top: 240px;
+    width: 270px;
+    height: 140px;
+    /* height: 200px; */
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.646);
+
+}

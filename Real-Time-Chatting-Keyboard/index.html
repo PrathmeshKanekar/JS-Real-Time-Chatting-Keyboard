@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatting Keyboard</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="scm">
+        <div class="mobile">
+            <div class="display">
+                <div class="top">
+                    <div class="camera"></div>
+                    <div class="speker"></div>
+                </div>
+                <div class="mid" id="mid">
+
+                    <div></div>
+                    <div class="scb" id="inp">
+                        <input id="target" type="text" onclick="text()" class="msgs">
+                        <button class="sebtn" onclick="send()">send</button>
+                    </div>
+                    <div class="keyboard" id="keyboard">
+                        
+                        <div class="nor">
+                            <button class="cbtn" onclick="element(this)" onkeypress="keypresso()">1</button>
+                            <button class="cbtn" onclick="element(this)" onkeypress="keypresst()">2</button>
+                            <button class="cbtn" onclick="element(this)" onkeypress="keypressth()">3</button>
+                            <button class="cbtn" onclick="element(this)" onkeypress="keypressf()">4</button>
+                            <button class="cbtn" onclick="element(this)" onkeypress="keypressfi()">5</button>
+                            <button class="cbtn" onclick="element(this)" onkeypress="keypresss()">6</button>
+                            <button class="cbtn" onclick="element(this)">7</button>
+                            <button class="cbtn" onclick="element(this)">8</button>
+                            <button class="cbtn" onclick="element(this)">9</button>
+                            <button class="cbtn" onclick="element(this)">0</button>
+                        </div>
+                        <div class="row2">
+                            <button class="rtbtn" onclick="element(this)">Q</button>
+                            <button class="rtbtn" onclick="element(this)">W</button>
+                            <button class="rtbtn" onclick="element(this)">E</button>
+                            <button class="rtbtn" onclick="element(this)">R</button>
+                            <button class="rtbtn" onclick="element(this)">T</button>
+                            <button class="rtbtn" onclick="element(this)">Y</button>
+                            <button class="rtbtn" onclick="element(this)">U</button>
+                            <button class="rtbtn" onclick="element(this)">I</button>
+                            <button class="rtbtn" onclick="element(this)">O</button>
+                            <button class="rtbtn" onclick="element(this)">P</button>
+                        </div>
+                        <div class="row3">
+                            <button class="rthbtn" onclick="element(this)">A</button>
+                            <button class="rthbtn" onclick="element(this)">S</button>
+                            <button class="rthbtn" onclick="element(this)">D</button>
+                            <button class="rthbtn" onclick="element(this)">F</button>
+                            <button class="rthbtn" onclick="element(this)">G</button>
+                            <button class="rthbtn" onclick="element(this)">H</button>
+                            <button class="rthbtn" onclick="element(this)">J</button>
+                            <button class="rthbtn" onclick="element(this)">K</button>
+                            <button class="rthbtn" onclick="element(this)">L</button>
+                        </div>
+                        <div class="row4">
+                            <button class="rfbtn" onclick="stop()" id="case">↑</button>
+                            <button class="rfbtn" onclick="element(this)">Z</button>
+                            <button class="rfbtn" onclick="element(this)">X</button>
+                            <button class="rfbtn" onclick="element(this)">C</button>
+                            <button class="rfbtn" onclick="element(this)">V</button>
+                            <button class="rfbtn" onclick="element(this)">B</button>
+                            <button class="rfbtn" onclick="element(this)">N</button>
+                            <button class="rfbtn" onclick="element(this)">m</button>
+                            <button class="rfbtn" onclick="thirtyse()" style="width: 40px;"><- </button>
+
+                        </div>
+                        <div class="row5">
+                            <button onclick="thirtye()" class="rl">SPACE</button>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="bot">
+                    <button class="btnm" onfocus="home()" onblur="home1()"></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="msgscreen">
+            <p id="show"></p>
+        </div>
+    </div>
+
+    <script src="assets/script.js">
+       
+    </script>
+</body>
+
+</html>
